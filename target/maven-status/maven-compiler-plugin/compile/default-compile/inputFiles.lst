@@ -1,0 +1,17 @@
+/Users/ITPUser/dev/asakusa/asakusa-develop/workspace/outseparatedfilessample/src/main/java/ironpeace/jobflow/OutputToCsv.java
+/Users/ITPUser/dev/asakusa/asakusa-develop/workspace/outseparatedfilessample/src/main/java/ironpeace/batch/OsfsBatch.java
+/Users/ITPUser/dev/asakusa/asakusa-develop/workspace/outseparatedfilessample/target/generated-sources/modelgen/ironpeace/modelgen/dmdl/io/OutputModelInput.java
+/Users/ITPUser/dev/asakusa/asakusa-develop/workspace/outseparatedfilessample/target/generated-sources/modelgen/ironpeace/modelgen/dmdl/csv/OutputModelCsvFormat.java
+/Users/ITPUser/dev/asakusa/asakusa-develop/workspace/outseparatedfilessample/target/generated-sources/modelgen/ironpeace/modelgen/dmdl/csv/AbstractOutputModelCsvInputDescription.java
+/Users/ITPUser/dev/asakusa/asakusa-develop/workspace/outseparatedfilessample/src/main/java/ironpeace/operator/OsfsOperator.java
+/Users/ITPUser/dev/asakusa/asakusa-develop/workspace/outseparatedfilessample/src/main/java/ironpeace/jobflow/OsfsJobFlow.java
+/Users/ITPUser/dev/asakusa/asakusa-develop/workspace/outseparatedfilessample/target/generated-sources/modelgen/ironpeace/modelgen/dmdl/io/InputModelOutput.java
+/Users/ITPUser/dev/asakusa/asakusa-develop/workspace/outseparatedfilessample/src/main/java/ironpeace/jobflow/inputFromCsv.java
+/Users/ITPUser/dev/asakusa/asakusa-develop/workspace/outseparatedfilessample/target/generated-sources/modelgen/ironpeace/modelgen/dmdl/model/InputModel.java
+/Users/ITPUser/dev/asakusa/asakusa-develop/workspace/outseparatedfilessample/target/generated-sources/modelgen/ironpeace/modelgen/dmdl/io/InputModelInput.java
+/Users/ITPUser/dev/asakusa/asakusa-develop/workspace/outseparatedfilessample/target/generated-sources/modelgen/ironpeace/modelgen/dmdl/csv/AbstractInputModelCsvOutputDescription.java
+/Users/ITPUser/dev/asakusa/asakusa-develop/workspace/outseparatedfilessample/target/generated-sources/modelgen/ironpeace/modelgen/dmdl/csv/InputModelCsvFormat.java
+/Users/ITPUser/dev/asakusa/asakusa-develop/workspace/outseparatedfilessample/target/generated-sources/modelgen/ironpeace/modelgen/dmdl/model/OutputModel.java
+/Users/ITPUser/dev/asakusa/asakusa-develop/workspace/outseparatedfilessample/target/generated-sources/modelgen/ironpeace/modelgen/dmdl/csv/AbstractOutputModelCsvOutputDescription.java
+/Users/ITPUser/dev/asakusa/asakusa-develop/workspace/outseparatedfilessample/target/generated-sources/modelgen/ironpeace/modelgen/dmdl/io/OutputModelOutput.java
+/Users/ITPUser/dev/asakusa/asakusa-develop/workspace/outseparatedfilessample/target/generated-sources/modelgen/ironpeace/modelgen/dmdl/csv/AbstractInputModelCsvInputDescription.java

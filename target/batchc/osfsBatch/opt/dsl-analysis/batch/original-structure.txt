@@ -1,0 +1,10 @@
+batch: osfsBatch
+flow: OsfsJobFlow
+    input:
+        input (ironpeace.jobflow.inputFromCsv)
+    output:
+        output (ironpeace.jobflow.OutputToCsv)
+    flow: ironpeace.jobflow.OsfsJobFlow
+        output: OutputDescription{name=output, type=class ironpeace.modelgen.dmdl.model.OutputModel}
+        operator: ironpeace.operator.OsfsOperator#convert([class ironpeace.modelgen.dmdl.model.InputModel])[]
+        input: InputDescription{name=input, type=class ironpeace.modelgen.dmdl.model.InputModel}

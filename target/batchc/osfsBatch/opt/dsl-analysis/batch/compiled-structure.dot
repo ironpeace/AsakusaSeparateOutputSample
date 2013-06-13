@@ -1,0 +1,14 @@
+digraph {
+    rankdir = LR;
+    "d34e27b1-fe68-4151-b362-e001d720b3eb" [shape=box, label="Batch\nosfsBatch"];
+    "a26f19a2-e212-4549-877b-ed75298794b3" [shape=box, label="JobFlow\nOsfsJobFlow"];
+    "f20ca0e8-b575-43f7-b67d-46337f9d474e" [shape=box, label="Stage\nironpeace.batchapp.osfsBatch.osfsJobFlow.stage0001.StageClient"];
+    "5f0c09d5-182e-4821-bd30-c11a25f28145" [shape=box, label="Mapper\nironpeace.batchapp.osfsBatch.osfsJobFlow.stage0001.StageMapper1"];
+    "f20ca0e8-b575-43f7-b67d-46337f9d474e" -> "5f0c09d5-182e-4821-bd30-c11a25f28145";
+    "bab61830-d8e5-452e-ba95-84d8d4f931d5" [shape=box, label="Fragment\nironpeace.batchapp.osfsBatch.osfsJobFlow.stage0001.MapFragment1"];
+    "603aaed5-8457-49f8-894b-71bb23e34801" [shape=box, label="Convert\nOsfsOperator#convert"];
+    "bab61830-d8e5-452e-ba95-84d8d4f931d5" -> "603aaed5-8457-49f8-894b-71bb23e34801";
+    "5f0c09d5-182e-4821-bd30-c11a25f28145" -> "bab61830-d8e5-452e-ba95-84d8d4f931d5";
+    "a26f19a2-e212-4549-877b-ed75298794b3" -> "f20ca0e8-b575-43f7-b67d-46337f9d474e";
+    "d34e27b1-fe68-4151-b362-e001d720b3eb" -> "a26f19a2-e212-4549-877b-ed75298794b3";
+}

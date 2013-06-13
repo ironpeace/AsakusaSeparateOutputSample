@@ -1,0 +1,8 @@
+core.batchId = osfsBatch
+core.buildId = 8376603e-8f17-4915-b0a0-2b39caf88c99
+ASAKUSA_HOME = /Users/ITPUser/asakusa-develop/asakusa
+com.asakusafw.batchapp.build.java.version = 1.6.0_45
+com.asakusafw.batchapp.build.timestamp = 2013-06-13 13:29:09
+com.asakusafw.batchapp.project.version = 1.0-SNAPSHOT
+com.asakusafw.compiler.options = 
+com.asakusafw.framework.version = 0.5.0

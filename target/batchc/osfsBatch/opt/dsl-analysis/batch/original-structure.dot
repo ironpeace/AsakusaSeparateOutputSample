@@ -1,0 +1,8 @@
+digraph {
+    rankdir = LR;
+    "6b16044a-9e0a-4c2f-ad67-0d7d75b54a99" [shape=box, label="Batch\nOsfsBatch"];
+    "198a837e-08cf-4ba9-a37b-67df1b09f266" [shape=box, label="JobFlow\nOsfsJobFlow"];
+    "e0f128e3-f30b-4f86-8482-e6f2efd2630a" [shape=box, label="Convert\nOsfsOperator#convert"];
+    "198a837e-08cf-4ba9-a37b-67df1b09f266" -> "e0f128e3-f30b-4f86-8482-e6f2efd2630a";
+    "6b16044a-9e0a-4c2f-ad67-0d7d75b54a99" -> "198a837e-08cf-4ba9-a37b-67df1b09f266";
+}

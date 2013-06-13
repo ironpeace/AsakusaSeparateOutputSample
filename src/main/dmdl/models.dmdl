@@ -1,0 +1,42 @@
+-- 入力CSVファイル形式
+
+"INPUT"
+@directio.csv(
+	charset = "UTF-8",
+    has_header = TRUE
+)
+input_model = {
+
+    "department"
+    @directio.csv.field(name = "部署")
+    department : TEXT;
+
+    "yyyymm"
+    @directio.csv.field(name = "年月")
+    yyyymm : TEXT;
+
+    "value"
+    @directio.csv.field(name = "値")
+    value : TEXT;
+};
+
+
+"OUTPUT"
+@directio.csv(
+	charset = "UTF-8",
+    has_header = TRUE
+)
+output_model = {
+
+    "department"
+    @directio.csv.field(name = "部署")
+    department : TEXT;
+
+    "yyyymm"
+    @directio.csv.field(name = "年月")
+    yyyymm : TEXT;
+
+    "value"
+    @directio.csv.field(name = "値")
+    value : TEXT;
+};

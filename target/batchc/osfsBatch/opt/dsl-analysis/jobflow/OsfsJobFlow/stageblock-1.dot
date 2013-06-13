@@ -1,0 +1,11 @@
+digraph {
+    "2ce16a9e-0802-47a9-8649-2e8dcfa688b5" [shape=invhouse, label="output"];
+    "1693dee0-aa85-48e4-89d0-e65cdd16b9fb" [shape=invhouse, label="input"];
+    subgraph "cluster_726ece13-70ca-4a03-bc8f-4c0d0c9c22f6" {
+        label = "stage0001";
+        style = bold;
+        "6545eb9b-9af4-4213-8a20-b7e3955f9acd" [shape=box, label="@Convert\nOsfsOperator.convert"];
+    }
+    "1693dee0-aa85-48e4-89d0-e65cdd16b9fb" -> "6545eb9b-9af4-4213-8a20-b7e3955f9acd" [label="port>in"];
+    "6545eb9b-9af4-4213-8a20-b7e3955f9acd" -> "2ce16a9e-0802-47a9-8649-2e8dcfa688b5" [label="out>port"];
+}

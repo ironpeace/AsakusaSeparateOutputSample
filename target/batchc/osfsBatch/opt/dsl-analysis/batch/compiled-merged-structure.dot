@@ -1,0 +1,14 @@
+digraph {
+    rankdir = LR;
+    "1359d22d-4824-4ca5-a751-e9b0f1abcf63" [shape=box, label="Batch\nosfsBatch"];
+    "da78e7d8-b4d4-413e-8289-22a0efc92a7a" [shape=box, label="JobFlow\nOsfsJobFlow"];
+    "2981b58b-e094-4363-8ddd-c109504cd33d" [shape=box, label="Stage\nironpeace.batchapp.osfsBatch.osfsJobFlow.stage0001.StageClient"];
+    "88a817e6-f22c-4f59-a42a-1f946165cebe" [shape=box, label="Mapper\nironpeace.batchapp.osfsBatch.osfsJobFlow.stage0001.StageMapper1"];
+    "2981b58b-e094-4363-8ddd-c109504cd33d" -> "88a817e6-f22c-4f59-a42a-1f946165cebe";
+    "b030917c-20c1-4d8b-bea5-4df15d0b7484" [shape=box, label="Fragment\nironpeace.batchapp.osfsBatch.osfsJobFlow.stage0001.MapFragment1"];
+    "8a62d654-7bf0-4e9a-baae-ecdee53d4bac" [shape=box, label="Convert\nOsfsOperator#convert"];
+    "b030917c-20c1-4d8b-bea5-4df15d0b7484" -> "8a62d654-7bf0-4e9a-baae-ecdee53d4bac";
+    "88a817e6-f22c-4f59-a42a-1f946165cebe" -> "b030917c-20c1-4d8b-bea5-4df15d0b7484";
+    "da78e7d8-b4d4-413e-8289-22a0efc92a7a" -> "2981b58b-e094-4363-8ddd-c109504cd33d";
+    "1359d22d-4824-4ca5-a751-e9b0f1abcf63" -> "da78e7d8-b4d4-413e-8289-22a0efc92a7a";
+}

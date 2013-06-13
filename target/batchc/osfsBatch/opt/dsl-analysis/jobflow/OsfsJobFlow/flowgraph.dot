@@ -1,0 +1,9 @@
+digraph {
+    "814b08fa-6698-4584-8c09-61603acdd299" [shape=point];
+    "189c14ae-4eb8-40f7-bed8-c67ab4e21d43" [shape=invhouse, label="input"];
+    "e30549ce-dfbb-47d9-9010-d79865fade5c" [shape=box, label="@Convert\nOsfsOperator.convert"];
+    "cf80f4dd-857e-426f-980a-d41ed65853dc" [shape=invhouse, label="output"];
+    "189c14ae-4eb8-40f7-bed8-c67ab4e21d43" -> "e30549ce-dfbb-47d9-9010-d79865fade5c" [label="port>in"];
+    "e30549ce-dfbb-47d9-9010-d79865fade5c" -> "814b08fa-6698-4584-8c09-61603acdd299" [label="original>in"];
+    "e30549ce-dfbb-47d9-9010-d79865fade5c" -> "cf80f4dd-857e-426f-980a-d41ed65853dc" [label="out>port"];
+}
